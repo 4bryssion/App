@@ -23,7 +23,7 @@ import mongoose from 'mongoose';
 
 const ProductoSchema = new mongoose.Schema( // Definimos el esquema para el modelo de Producto
 {
-    producto: { type: String, trim: true },
+    name_producto: { type: String, trim: true },
     precio:  { type: Number, min: 0 },
     imagen:  { type: String, trim: true }
 },
